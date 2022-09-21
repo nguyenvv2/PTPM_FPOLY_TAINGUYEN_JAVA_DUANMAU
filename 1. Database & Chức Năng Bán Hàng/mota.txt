@@ -1,0 +1,4 @@
+Hiển thị danh sách sản phẩm cho phần sản phẩm.
+Bấm chuột vào sản phẩm -> thêm sản phẩm vào giỏi hàng
+Khi giỏ hàng có sản phẩm -> cho phép thanh toán -> thanh toán thành công hiển thị lên ô hoá đơn
+Tạo hoá đơn -> xoá các sản phẩm trong giỏ hàng
