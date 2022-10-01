@@ -1,4 +1,4 @@
 Hiển thị danh sách sản phẩm cho phần sản phẩm.
-Bấm chuột vào sản phẩm -> thêm sản phẩm vào giỏi hàng
-Khi giỏ hàng có sản phẩm -> cho phép thanh toán -> thanh toán thành công hiển thị lên ô hoá đơn
-Tạo hoá đơn -> xoá các sản phẩm trong giỏ hàng
+Hiển thị thông tin các hoá đơn trên phần hoá đơn. 
+Tạo hoá đơn - > thêm mới 1 hoá đơn vào DB với tình trạng chưa thanh toán
+Khi bấm thanh toán sẽ thêm bảng chi tiết hoá đơn theo mã hoá đơn vừa tạo, các sản phám lấy từ ds giỏ hàng -> đổi trạng thái hoá đơn thành đã thanh toán
