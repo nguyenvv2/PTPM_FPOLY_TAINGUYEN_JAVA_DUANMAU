@@ -1,4 +1,4 @@
 Hiển thị danh sách sản phẩm cho phần sản phẩm.
 Hiển thị thông tin các hoá đơn trên phần hoá đơn. 
-Tạo hoá đơn - > thêm mới 1 hoá đơn vào DB với tình trạng chưa thanh toán
-Khi bấm thanh toán sẽ thêm bảng chi tiết hoá đơn theo mã hoá đơn vừa tạo, các sản phám lấy từ ds giỏ hàng -> đổi trạng thái hoá đơn thành đã thanh toán
+Tạo hoá đơn - > thêm mới 1 hoá đơn vào DB với tình trạng chưa thanh toán, hiển thị lên bảng hoá đơn
+Khi bấm thanh toán sẽ thêm bảng chi tiết hoá đơn theo mã hoá đơn tương ứng, các sản phám lấy từ ds giỏ hàng -> đổi trạng thái hoá đơn thành đã thanh toán
