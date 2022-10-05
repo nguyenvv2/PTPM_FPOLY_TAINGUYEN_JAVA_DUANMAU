@@ -2,3 +2,13 @@ Hiển thị danh sách sản phẩm cho phần sản phẩm.
 Hiển thị thông tin các hoá đơn trên phần hoá đơn. 
 Tạo hoá đơn - > thêm mới 1 hoá đơn vào DB với tình trạng chưa thanh toán, hiển thị lên bảng hoá đơn
 Khi bấm thanh toán sẽ thêm bảng chi tiết hoá đơn theo mã hoá đơn tương ứng, các sản phám lấy từ ds giỏ hàng -> đổi trạng thái hoá đơn thành đã thanh toán
+
+(Chi tiết)
+table sản phẩm : getAll bảng chi tiết sản phẩm
+        tạo hoá đơn-> insert thông tin cho bảng hoá đơn:id , mã hoá đơn, ngày tạo , trạng thái ( mặc định chưa thanh toán);
+        insert xong hoá đơn: hiển thị toàn bộ hoá đơn lên table hoá đơn
+        click table hoá đơn- > hiển thị thông tin hoá đơn lên text field
+        bấm sản phẩm thêm vào table giỏ hàng,
+        bấm thanh toán: update trạng thái của hoá đơn-> đã thanh toán
+                -> insert các thông tin ở giỏ hàng vào bảng chi tiết hoá đơn
+Sản Phẩm, DongSP, NSX, MauSac,ChiTietSP,HoaDon, HoaDonChiTiet
